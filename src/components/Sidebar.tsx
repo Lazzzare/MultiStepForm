@@ -35,7 +35,7 @@ const Sidebar = () => {
       {/* Buttons */}
       <div
         className="z-10 absolute mx-auto top-8 md:top-10 flex flex-row md:flex-col md:pl-8 md:pt-10
-      md:items-start md:left-8 items-center gap-4 text-white text-sm font-bold tracking-[1px]
+      md:items-start md:left-8 items-center gap-4 md:gap-8 text-white text-sm font-bold tracking-[1px]
       justify-center w-full leading-normal"
       >
         {stepsData.map((step) => (
