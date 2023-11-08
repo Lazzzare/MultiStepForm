@@ -24,11 +24,11 @@ const Sidebar = () => {
           alt="sideBarImageForMobile"
           className="w-full flex md:hidden"
         />
-        <div className="bg-white p-4 rounded-l-[10px] hidden md:flex">
+        <div className="bg-white p-4 rounded-l-[10px] hidden md:flex w-full h-full">
           <img
             src={sideBarImageForDesktop}
             alt="sideBarImageForMobile"
-            className="w-full h-[568px] hidden md:flex rounded-[10px]"
+            className="w-full h-full hidden md:flex rounded-[10px]"
           />
         </div>
       </div>
